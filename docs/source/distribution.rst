@@ -1,7 +1,7 @@
 .. settingup:
 
 Additional things
-===================================================
+-----------------
 
 This installationGuide has been published since Apr 30, 2021 as part of followings activities:
 

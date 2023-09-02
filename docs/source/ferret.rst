@@ -3,13 +3,13 @@
 Ferret/PyFerret installation on Ubuntu
 ======================================
 
-a. Create folder on D:\ or E:\ partition
-----------------------------------------
+Create folder on D: or E: partition
+-------------------------------------
 
 For example the folder name is **ferret_training**
 
-b. Download and install miniconda
----------------------------------
+Download and install miniconda
+------------------------------
 
 - Download Miniconda2-latest-Linux-x86_64.sh file from drive that shared for training participants and locate to folder created above (ex: ferret_training).
 
@@ -21,6 +21,7 @@ b. Download and install miniconda
 .. figure:: /images/01ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *check current working directory*
 
@@ -35,6 +36,7 @@ Type ‘**cd file_directory_path**’ (without quote) to change work directory.
 .. figure:: /images/02ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *change directory*
 
@@ -43,6 +45,7 @@ Check whether it is in the correct directory. By type ‘**ls -l**’ we should 
 .. figure:: /images/03ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *list Miniconda installer code*
 
@@ -57,6 +60,7 @@ The result after press enter will be shown below:
 .. figure:: /images/04ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Run Miniconda shell script*
 
@@ -65,6 +69,7 @@ Press enter several time to review license agreement:
 .. figure:: /images/05ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Review License Agreement*
 
@@ -73,6 +78,7 @@ Type ‘**yes**’ (without quote) then press enter:
 .. figure:: /images/06ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Accepting the license terms*
 
@@ -81,6 +87,7 @@ Press enter, after extracting the result will be shown as below:
 .. figure:: /images/07ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *All requested packaged already installed*
 
@@ -89,13 +96,14 @@ Type ‘**yes**’ (without quote) then press enter:
 .. figure:: /images/08ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Finished of Miniconda installation*
 
 Close ubuntu terminal by type ‘**exit**’ then press enter or click X sign on upper right corner.
 
-c. Download and install Ferret/PyFerret
----------------------------------------
+Download and install Ferret/PyFerret
+------------------------------------
 
 Launch Ubuntu terminal
 
@@ -103,6 +111,7 @@ Launch Ubuntu terminal
 .. figure:: /images/09ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Launch Ubuntu terminal*
 
@@ -115,6 +124,7 @@ Download and install PyFerret using miniconda by type below command and press en
 .. figure:: /images/10ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Launch Miniconda environment*
 
@@ -129,6 +139,7 @@ Type below command and press enter to activate this environment
 .. figure:: /images/11ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *activate FERRET env*
 
@@ -137,13 +148,14 @@ Type ‘ferret’ (without quote) then press enter to launch Ferret in Ubuntu
 .. figure:: /images/12ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *FERRET Launch*
 
 PyFerret already installed but to launch graphical visualization an X server will need to be installed on the Windows 10 system and the DISPLAY variable will need to be set in Bash.
 
-d. Install graphical program on WSL
------------------------------------
+Install graphical program on WSL
+--------------------------------
 
 - Make sure to close Ubuntu terminal before you install graphical program on WSL.
 
@@ -154,18 +166,21 @@ d. Install graphical program on WSL
 .. figure:: /images/13ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *XMing Setup Wizard*
 
 .. figure:: /images/14ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Select components of XMing to be install*
 
 .. figure:: /images/15ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Completing the XMing Setup Wizard*
 
@@ -175,8 +190,9 @@ d. Install graphical program on WSL
 .. figure:: /images/16ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
-   *x*
+   *XMing active indicator*
 
 Once you have an X server installed and running, you'll need to install graphics applications.
 
@@ -191,16 +207,18 @@ Once you have an X server installed and running, you'll need to install graphics
 .. figure:: /images/17ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
-   *XMing active indicator*
+   *x11-apps installation*
 
 Type ‘Y’ and press enter:
 
 .. figure:: /images/18ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
-   *x11-apps installation*
+   *x11-apps installation completed*
 
 Once the applications have been installed, you can start them by setting your display and executing the application on the Bash shell.
 
@@ -214,11 +232,12 @@ Type following command on Ubuntu terminal and press enter:
 .. figure:: /images/19ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
-   *x11-apps installation completed*
+   *export DISPLAY*
 
-e. Automatic ferret environment and WSL graphical activated
------------------------------------------------------------
+Automatic ferret environment and WSL graphical activated
+--------------------------------------------------------
 
 - Using ferret environment and WSL graphical may need to comment the lines that launch the conda environment and Windows X server.
 
@@ -241,6 +260,7 @@ Scroll to the bottom of the file and add following lines
 .. figure:: /images/20ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *automatic environment setup*
 
@@ -250,14 +270,15 @@ Scroll to the bottom of the file and add following lines
    Close the terminal by type ‘exit’ and press enter or click X sign on upper right corner.
 
 
-f. Test installed Ferret/PyFerret
----------------------------------
+Test installed Ferret/PyFerret
+------------------------------
 
 Open Ubuntu terminal from Windows start menu.
 
 .. figure:: /images/21ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Ubuntu Launch*
 
@@ -266,6 +287,7 @@ Type ‘ferret’ (without quote) in ubuntu terminal then press enter.
 .. figure:: /images/22ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Ferret Launch*
 
@@ -282,6 +304,7 @@ Type ‘go tutorial’ (without quote) and press enter:
 .. figure:: /images/23ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *go tutorial demo*
 
@@ -290,6 +313,7 @@ Press enter:
 .. figure:: /images/24ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *plot demo*
 
@@ -298,18 +322,21 @@ Press enter several times will show you example of scripts and plot results:
 .. figure:: /images/25ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *plot multiple views demo*
 
 .. figure:: /images/26ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *vector demo*
 
 .. figure:: /images/27ferret.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *fill demo*
 

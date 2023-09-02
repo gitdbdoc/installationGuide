@@ -39,6 +39,7 @@ folder/directory to be used.
 .. figure:: /images/01panoply.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *after extraction*
 

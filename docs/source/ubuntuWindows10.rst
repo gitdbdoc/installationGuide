@@ -1,5 +1,8 @@
 .. _settingup:
 
+Ubuntu installation on Windows 10
+=================================
+
 .. attention:: to be prepared!
 
    - A PC or laptop with an original Windows 10 operating system (or one that can updated). If you are using an earlier version of Windows, please browse how to install Ubuntu according to the operating system that you are using.
@@ -13,11 +16,8 @@ In brief, the Ferret installation steps on the Windows 10 operating system are a
 2. install Ferret on the Linux platform at the previous stage.
 
 
-Ubuntu installation on Windows 10
-=================================
-
-a. Requirements
----------------
+Requirements
+------------
 
 You will need a x86 PC running Windows 10 (but x64 is working too). Windows 10 needs to be updated to include the Windows 10 Fall Creators update, released October 2017.
 This update includes the Windows Subsystem for Linux which is needed to run the Ubuntu terminal.
@@ -25,11 +25,12 @@ This update includes the Windows Subsystem for Linux which is needed to run the 
 .. figure:: /images/01ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Windows 10 update*
 
-b. Enable WSL (Windows Subsystem for Linux)
--------------------------------------------
+Enable WSL (Windows Subsystem for Linux)
+----------------------------------------
 
 To enable WSL 1 on Windows 10 Fall Creators update and newer run the following in PowerShell as Administrator:
 
@@ -50,6 +51,7 @@ You can see these steps demonstrated in the screenshot below:
 .. figure:: /images/02ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Windows Powershell App*
 
@@ -58,6 +60,7 @@ Type command above in the PowerShell window:
 .. figure:: /images/03ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *dism.exe*
 
@@ -66,6 +69,7 @@ After enter the command you can see the window as below:
 .. figure:: /images/04ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Enabling feature(s)*
 
@@ -78,6 +82,7 @@ To enable WSL 2 on Windows 10 May 2020 update and newer run the following in Pow
 .. figure:: /images/05ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Enabling WSL 2 on Windows 10*
 
@@ -86,13 +91,14 @@ After enter the command you can see the window as below:
 .. figure:: /images/06ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Enabling feature(s) WSL 2 on Windows 10*
 
 and then restart Windows 10.
 
-c. Install Ubuntu for Windows 10
---------------------------------
+Install Ubuntu for Windows 10
+-----------------------------
 
 Ubuntu can be installed from the Microsoft Store:
 
@@ -107,6 +113,7 @@ Ubuntu will be downloaded and installed automatically. Progress will be reported
 .. figure:: /images/07ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Microsoft Store*
 
@@ -115,6 +122,7 @@ After search Ubuntu in Microsoft Store the result will shown as below:
 .. figure:: /images/08ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Ubuntu at Microsoft Store*
 
@@ -123,17 +131,19 @@ Select the first result and click ‘get’ botton or ‘install’ botton. Resu
 .. figure:: /images/09ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Ubuntu installed*
 
-d. Launch Ubuntu on Windows 10
-------------------------------
+Launch Ubuntu on Windows 10
+---------------------------
 
 Ubuntu can now be launched in the same way as any other Windows 10 application, such as searching for and selecting Ubuntu in the Start menu.
 
 .. figure:: /images/10ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
    
    *Launch Ubuntu*
 
@@ -142,6 +152,7 @@ When complete, you’ll be asked for a username and password specific to your Ub
 .. figure:: /images/11ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
 
    *Ubuntu Terminal*
 
@@ -155,6 +166,7 @@ Type your username and password then result of installation process is shown as 
 .. figure:: /images/12ubuntu.png
    :alt: alt text goes here
    :align: center
+   :width: 800px
 
    *Input UNIX username and password*
 

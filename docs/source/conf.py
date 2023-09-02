@@ -9,7 +9,7 @@
 project = 'Panoply&Ferret-installationGuide'
 copyright = 'since Apr 2021'
 author = 'dberlianty & bpriyono'
-release = '202104v.01'
+release = 'v.01'
 
 # -- General configuration ---------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#general-configuration
