@@ -1,0 +1,6 @@
+#ignore some files
+docs/build
+docs/source/_templates/
+merge
+panduan_panoply_dan_ferret.pdf
+Uraiansingkatdokumenpanduaninstalasiferretdanpanoply.docx
